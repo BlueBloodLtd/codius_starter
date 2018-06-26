@@ -1,0 +1,20 @@
+{
+  "name": "codius_starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tadas Talaikis <info@talaikis.com>",
+  "license": "ISC",
+  "dependencies": {
+    "codius": "^2.0.2",
+    "ilp-plugin": "^3.1.1",
+    "ilp-protocol-spsp": "^2.0.0",
+    "ilp-spsp": "^1.1.1",
+    "ilp-spsp-server": "^1.0.4",
+    "moneyd": "^4.0.1",
+    "moneyd-uplink-xrp": "^1.1.1"
+  }
+}
