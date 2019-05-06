@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "Tadas Talaikis <info@talaikis.com>",
   "license": "ISC",
@@ -15,6 +17,8 @@
     "ilp-spsp": "^1.1.1",
     "ilp-spsp-server": "^1.0.4",
     "moneyd": "^4.0.1",
-    "moneyd-uplink-xrp": "^1.1.1"
-  }
+    "moneyd-uplink-xrp": "^1.1.1",
+    "snyk": "^1.161.1"
+  },
+  "snyk": true
 }
